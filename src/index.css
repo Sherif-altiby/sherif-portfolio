@@ -13,3 +13,7 @@
 html{
     scroll-behavior: smooth;
 }
+
+.bg-hero-main{
+    background-image: url("./assets/images/blob-haikei.ed4231cd548cd312fe4f.svg");
+}

@@ -32,7 +32,7 @@ const About = () => {
             <div className="bg-white rounded-xl shadow-xl p-7 w-[95%] md:w-auto lg:w-[950px] ml-auto mr-auto " >
                 <img className="w-44 m-auto block" data-aos="fade-right"  data-aos-duration="1500"  src={img} alt="" />
                 <div>
-                  { aboutData.map((data) => <div key = {data} className=" my-10 sm:my-[80px] text-left text-dark text-lg" data-aos="fade-right"  data-aos-duration="1500"> {data} </div>) }
+                  { aboutData.map((data) => <div key = {data} className=" my-10 sm:my-[80px] text-justify sm:text-left text-dark text-lg" data-aos="fade-right"  data-aos-duration="1500"> {data} </div>) }
                 </div>
                 <div className="flex flex-wrap  justify-between" >
                 { myTools.map((tool) => <div key={tool.name} className="w-20 text-center mb-5" data-aos="fade-right" data-aos-duration="1500" > <img className="" src={tool.img} alt="" /> <p> {tool.name} </p> </div>) }
