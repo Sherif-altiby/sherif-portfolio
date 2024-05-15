@@ -44,7 +44,7 @@ const Nav = () => {
                   { links.map(link =>  <li key={link.id}>  <a href={link.link} className="text-dark no-underline hover:text-light duration-300 text-xl" > {link.name} </a> </li>) }
                 </ul>
                 </div>
-                <div className="hidden md:block" ><a href="https://drive.google.com/file/d/1dIX-hjO-rKAM54p7G0vwC-G9g0XpLys1/view?usp=sharing" target="_blank" className="bg-btnColor no-underline cursor-pointer text-light py-3 px-5 text-xl rounded-md hover:bg-[#126ffa]" > Resume </a></div>
+                <div className="hidden md:block" ><a href="https://drive.google.com/file/d/1_K0Afc4c25c0F9QlTkxdqdcrtuuOGy59/view?usp=sharing" target="_blank" className="bg-btnColor no-underline cursor-pointer text-light py-3 px-5 text-xl rounded-md hover:bg-[#126ffa]" > Resume </a></div>
             </div>
             <div className="flex flex-col md:flex-row justify-center text-center gap-6 md:justify-between mt-[100px] lg:pl-[150px]  lg:pr-[200px]">
                 <div data-aos="flip-left"data-aos-duration="1500" >
